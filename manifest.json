@@ -1,0 +1,6 @@
+{
+  "name": "Amazon URL Shorter",
+  "version": "1.0",
+  "description": "Remove useless information from Amazon URL",
+  "manifest_version": 2
+}
