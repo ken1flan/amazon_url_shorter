@@ -1,0 +1,2 @@
+# amazon_url_shorter
+amazonのURLから余計な情報を削除するchrome拡張
