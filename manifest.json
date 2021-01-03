@@ -8,5 +8,11 @@
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
+  "browser_action": {
+    "name": "Amazon URL Shorter"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
   "manifest_version": 2
 }
