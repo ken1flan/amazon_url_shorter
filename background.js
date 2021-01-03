@@ -1,3 +1,6 @@
 chrome.browserAction.onClicked.addListener(() => {
-  console.log('clicked!');
+  chrome.tabs.query({active: true, currentWindow: true}, tabs => {
+    url = tabs[0].url;
+    console.log(url);
+  });
 });
